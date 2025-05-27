@@ -41,3 +41,61 @@
     color: white;
     text-decoration: none;
 }
+.sec1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 635px;
+    background-color: #f2f2f2;
+}
+.sec1-tit{
+    font-family: Ink Free;
+    font-size:50px;
+    color: rgb(55, 55, 63);
+}
+.sec1-pr{
+   color: color(srgb 0.129412 0.145098 0.160784 / 0.7);
+   font-size: 22px;
+   font-weight: 400;
+   margin-top: 10px;
+   
+}
+.div1-sec1-dv2{
+    display: flex;
+    margin-top: 30px;
+}
+.div-watch{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.div-watch i{
+    font-size: 30px;
+    font-weight: lighter;
+    color: red;
+    cursor: pointer;
+    
+}
+.Watch{
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.div2-sec1-img img{
+    width: 522px;
+    animation-name: ani;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+@keyframes ani{
+    0% {
+        margin-top: -30px;
+    }
+    50% {
+       margin-top: 0px;
+    }
+    100%{
+       margin-top: -30px;
+    }
+}
