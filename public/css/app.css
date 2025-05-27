@@ -33,9 +33,12 @@
     font-size: 19px;
     border-radius: 20px;
     border: none;
+    color: white;
+    cursor: pointer;
 }
 .book:hover{
     background-color: rgba(255, 0, 0, 0.819);
+    
 }
 .book a{
     color: white;
@@ -98,4 +101,129 @@
     100%{
        margin-top: -30px;
     }
+}
+.vd-watch{
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.866);
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.vd-watch i{
+    color: rgba(255, 255, 255, 0.197);
+    font-size: xx-large;
+    position: absolute;
+    right: 50px ;
+    top: 40px;
+    cursor: pointer;
+}
+.vd-watch i:hover{
+    color:  rgba(255, 255, 255, 0.312);
+}
+.vd-watch video{
+    width: 1000px;
+    
+    
+}
+.div-login{
+    background-color: rgba(0, 0, 0, 0.782);
+    width: 100%;
+    height: 729px;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    width: 450px;
+    height: 560px;
+    background-color: rgb(181, 12, 12);
+    border-radius:  40% 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+
+}
+.tit-div{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-top: 50px;
+}
+.tit-div i{
+    font-size: 30px;
+    position: relative;
+    left: 120px;
+    top: -40px;
+    cursor: pointer;
+}
+.tit-div i:hover{
+    color: rgba(255, 255, 255, 0.79);
+}
+.log-tit{
+    font-size: 60px;
+}
+.log-inp{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 20px;
+}
+.log-inp input{
+    height: 50px;
+    margin-top: 10px;
+    padding-left: 40px;
+    font-size: larger;
+    background: none;
+    border: none;
+    color: white;
+    border-bottom:white 2px solid ;
+}
+.log-inp input::placeholder{
+    color: white;
+  
+}
+.log-inp i{
+   color: white;
+   font-size: x-large;
+   position: relative;
+   top: 48px;
+   left: 3px;
+   width: fit-content;
+}
+
+.div-log-bt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+.log-bt{
+    background-color: rgb(122, 6, 6);
+    color: white;
+    font-size: x-large;
+    width: 250px ;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+.log-bt:hover{
+    background-color: rgba(122, 6, 6, 0.801);
+
+}
+.log-pr{
+    margin-top: 10px;
+    color: #f2f2f275;
 }

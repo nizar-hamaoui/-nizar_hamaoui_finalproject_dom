@@ -23,10 +23,39 @@
         <a class="mun" href="">content</a>
     </div>
     <div class="div-book">
-        <button class="book"><a href="">Book a Table</a></button>
+        <button id="logg" class="book">Login</button>
     </div>
     
    </nav>
+    <!-- div dyal login -->
+     <div class="div-login" style="display: none;">
+        <div class="login">
+            <div class="tit-div">
+            <h1 class="log-tit">login</h1>
+            <i id="log-close" class="fa-solid fa-x"></i>
+            </div>
+            <div class="log-inp">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Email ID">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Password">
+                 <div class="div-log-bt">
+                    <button class="log-bt">LOGIN</button>
+                    <p class="log-pr">Forgot Password?</p>
+
+                 </div>
+               
+
+            </div>
+
+
+        </div>
+
+
+     </div>
+
+    
+
    <section class="sec1">
     <div class="div1-sec1">
         <div class="div1-sec1-dv1">
@@ -36,7 +65,7 @@
         <div class="div1-sec1-dv2">
             <button class="book"><a href="">Book a Table</a></button>
             <div class="div-watch">
-                <i class="fa-regular fa-circle-play"></i>
+                <i id="icon-vd" class="fa-regular fa-circle-play"></i>
                 <h4 class="Watch">Watch Video</h4>                
             </div>
         </div>
@@ -45,7 +74,15 @@
         <img src="./public/Yummy/hero-img.png" alt="img">
 
     </div>
-
+     <!-- div dyal video -->
+    <div class="vd-watch" style="display: none;">
+        <i id="watch-close" class="fa-solid fa-x"></i>
+       <video  src="./public/video/1 Minute Video - Doggie.mp4" controls>
+       
+      </video>
+    </div>
+     
+       
 
    </section>
 
