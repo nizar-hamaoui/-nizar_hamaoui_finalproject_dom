@@ -148,6 +148,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .login{
     width: 450px;
@@ -240,7 +241,7 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 900px;
+    height: 950px;
 }
 .s2-pr1{
     font-size: 18px;
@@ -364,4 +365,82 @@ body{
     font-size: 250px;
     color: red;
 
+}
+.sec3{
+    height: 450px;
+    background-color: #dadada;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.sec3-div1{
+    background-color: rgb(223, 13, 13);
+    width: 450px;
+    height: 340px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.sec3-tit1{
+    font-size: 34px;
+    margin-top: 40px;
+}
+.sec3-div1-pr1{
+    font-size: larger;
+}
+.sec3-but1{
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.192);
+    padding: 10px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.sec3-but1:hover{
+    background-color: white;
+    color: red;
+}
+.sec3-div2{
+    width: 270px;
+    height: 340px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.sec3-icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.105);
+    margin-top: 40px;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec3-icon:hover {
+    background-color:  rgb(223, 13, 13);
+}
+.sec-tit2{
+    font-size: 20px;
+    color: rgb(55, 55, 63);
+}
+.sec3-div2-pr1{
+    font-size: 19px;
+    width: 250px;
+    color: color(srgb 0.129412 0.145098 0.160784 / 0.7);
+}
+.sec3-icon i{
+    color: red;
+    font-size: xx-large;
+    transition: 0.5s;
+}
+.sec3-icon i:hover{
+    color: white;
 }
