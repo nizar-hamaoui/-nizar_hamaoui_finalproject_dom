@@ -29,3 +29,29 @@ logCl.addEventListener('click', ()=>{
     divLog.style.display = 'none'
     db.style.overflow = 'scroll'
 })
+/* Simple carousel implementation */
+let carousel = document.querySelector('.carousel');
+let slides = document.querySelectorAll('.item1');
+let prevBtn = document.querySelector('.prev');
+let nextBtn = document.querySelector('.next');
+let currentIndex = 0;
+
+function showSlide(index) {
+    slides.forEach((slide, i) => {
+        slide.style.display = (i === index) ? 'block' : 'none';
+    });
+}
+
+if (carousel && slides.length > 0) {
+    showSlide(currentIndex);
+
+    nextBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % slides.length;
+        showSlide(currentIndex);
+    });
+
+    prevBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+        showSlide(currentIndex);
+    });
+}

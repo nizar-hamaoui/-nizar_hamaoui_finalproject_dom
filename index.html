@@ -13,8 +13,8 @@
         <h1 class="logo">Yummy.</h1>
     </div>
     <div class="list-mune">
-        <a class="mun" href="">Home</a>
-        <a class="mun" href="">About</a>
+        <a class="mun" href="#sec1">Home</a>
+        <a class="mun" href="#sec2">About</a>
         <a class="mun" href="">Mune</a>
         <a class="mun" href="">Events</a>
         <a class="mun" href="">Chefs</a>
@@ -77,17 +77,48 @@
     </div>
      <!-- div dyal video -->
     <div class="vd-watch" style="display: none;">
-        <i id="watch-close" class="fa-solid fa-x"></i>
-       <video  src="./public/video/1 Minute Video - Doggie.mp4" controls>
-       
-      </video>
+        <div id="carousel" class="carousel">
+            <i id="watch-close" class="fa-solid fa-x"></i>
+            <button class="cont prev">&#10094;</button>
+            <div class="div1-Carousel">
+                <div class="item1 active">
+                    <video src="./public/video/1 Minute Video - Doggie.mp4" controls></video>
+                </div>
+                <div class="item1">
+                    <img src="./public/Yummy/hero-img.png" alt="">
+                </div>
+                <div class="item1">
+                    <img src="./public/Yummy/menu/menu-item-1.png" alt="">
+                </div>
+                <div class="item1">
+                    <img src="./public/Yummy/menu/menu-item-2.png" alt="">
+                </div>
+                <div class="item1">
+                    <img src="./public/Yummy/menu/menu-item-3.png" alt="">
+                </div>
+                <div class="item1">
+                    <img src="./public/Yummy/menu/menu-item-4.png" alt="">
+                </div>
+                <div class="item1">
+                    <img src="./public/Yummy/menu/menu-item-5.png" alt="">
+                </div>
+                <div class="item1">
+                    <img src="./public/Yummy/menu/menu-item-6.png" alt="">
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <button class="cont next">&#10095;</button>
     </div>
+    
      
        
 
    </section>
 
-   <section class="sec2">
+   <section class="sec2" id="sec2">
     <div class="div1-sec2">
         <p class="s2-pr1">About Us</p>
         <h1 class="tit-se2">Learn More About Us</h1>
@@ -127,7 +158,7 @@
 
    </section>
 
-   <section class="sec3">
+   <section class="sec3" id="sec3">
     <div class="sec3-div1">
         <h1 class="sec3-tit1">Why Choose Yummy</h1>
         <p class="sec3-div1-pr1">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Duis aute irure <br> dolor in reprehenderit Asperiores dolores sed et. <br> Tenetur quia eos. Autem tempore quibusdam vel <br> necessitatibus optio ad corporis.</p>
@@ -151,7 +182,7 @@
     
 
    </section>
-   <section class="sec4">
+   <section class="sec4" id="sec4">
           <div class="sec4-bg">
             <div class="sec4-div-num">
                 <h1 class="sec4-num">232</h1>
@@ -174,6 +205,22 @@
 
    </section>
 
+   <section class="sec5" id="sec5">
+    <div class="div1-sec2">
+        <p class="s2-pr1">OUR MENU</p>
+        <h1 class="tit-se2">CHECK OUR YUMMY MENU</h1>
+
+    </div>
+    <div class="div1-sec5">
+        <div class="div1-sec5-dv1">
+
+        </div>
+        <div class="div1-sec5-dv2"></div>
+
+    </div>
+
+
+   </section>
 
 
 
@@ -181,6 +228,7 @@
 
 
 
+    <div class="go-up"><a href="#sec1"><i class="fa-solid fa-up-long"></i></a></div>
     <script src="./public/js/app.js"></script>
     
 </body>

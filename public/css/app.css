@@ -473,3 +473,52 @@ body{
     font-size: 20px;
     color: rgba(255, 255, 255, 0.534);
 }
+.sec5{
+    height: 600px;
+    text-align: center;
+    padding-top: 60px;
+}
+.go-up{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    background-color: red;
+    border-radius: 50%;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.go-up a i{
+    font-size: larger;
+    color: white;
+} 
+.cont{
+    background: none;
+    color: rgba(255, 255, 255, 0.544);
+    font-size: 55px;
+    border: none;
+    cursor: pointer;
+}
+.cont:hover{
+    color: rgba(255, 255, 255, 0.799);
+}
+.prev{
+    position: relative;
+    left: -20%;
+    top: 280px;
+}
+.next{
+    position: relative;
+    left: 150px;
+}
+.item1 img{
+    width:600px ;
+    margin-left: 110px;
+}
+.iv{
+    width: 2000px;
+}
