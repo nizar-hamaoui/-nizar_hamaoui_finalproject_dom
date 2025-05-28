@@ -351,6 +351,7 @@ body{
     font-size: 33px;
     position: relative;
     left: -105px;
+    z-index: 1;
    
 }
 .dv2-bg #ii{
@@ -358,12 +359,13 @@ body{
     font-size: 33px;
     margin-left: 30px;
     transition: 0.5s;
+    z-index: 2;
     
 
 }
 .dv2-bg #ii:hover{
     font-size: 250px;
-    color: red;
+    color: rgba(255, 0, 0, 0);
 
 }
 .sec3{
@@ -443,4 +445,31 @@ body{
 }
 .sec3-icon i:hover{
     color: white;
+}
+.sec4{
+    background-image: url(../Yummy/stats-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+}
+.sec4-bg{
+    background-color: rgba(0, 0, 0, 0.449);
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 230px;
+}
+.sec4-div-num{
+    text-align: center;
+}
+.sec4-num{
+    font-size: 65px;
+}
+.sec4-pr{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.534);
 }
