@@ -63,3 +63,29 @@ btnCAru1.addEventListener('click', ()=>{
      dvVD.style. position = 'fixed'
     
 })
+// mune
+let btMune = document.querySelectorAll(".munee");
+let coMune = document.querySelectorAll(".co-mune");
+let dvMN = document.querySelector('#mn2')
+let mn3 = document.querySelector('#mn3')
+btMune.forEach(e => {
+    e.addEventListener('click', () => {
+        let cont = e.textContent.trim();
+        coMune.forEach(c => {
+            c.textContent = cont;
+            if (c.textContent === "Breakfast") {
+                dvMN.style.display = "none"
+                mn3.style.display = "block"
+                
+            }else if(c.textContent === "Lunch"){
+                 mn3.style.display = "none"
+                 dvMN.style.display = "none"
+            }
+            else{
+                dvMN.style.display = "flex"
+                mn3.style.display = "block"
+
+            }
+        });
+    });
+});
