@@ -6,14 +6,14 @@ let wtCL = document.querySelector('#watch-close')
 let db = document.querySelector('body')
 iconVD.addEventListener('click', ()=>{
     dvVD.style.display = 'flex'
-    db.style.overflow = 'hidden'
+    dvVD.style. position = 'fixed'
     
 
 })
 
 wtCL.addEventListener('click', ()=>{
     dvVD.style.display = 'none'
-    db.style.overflow = 'scroll'
+  
 })
 
 // code dyal login
@@ -23,13 +23,13 @@ let logCl = document.querySelector('#log-close')
 
 logg.addEventListener('click', ()=>{
     divLog.style.display = 'flex'
-    db.style.overflow = 'hidden'
+    divLog.style. position = 'fixed'
 })
 logCl.addEventListener('click', ()=>{
     divLog.style.display = 'none'
-    db.style.overflow = 'scroll'
+    
 })
-/* Simple carousel implementation */
+
 let carousel = document.querySelector('.carousel');
 let slides = document.querySelectorAll('.item1');
 let prevBtn = document.querySelector('.prev');
@@ -55,3 +55,11 @@ if (carousel && slides.length > 0) {
         showSlide(currentIndex);
     });
 }
+
+let btnCAru1 = document.querySelector('#ii')
+
+btnCAru1.addEventListener('click', ()=>{
+     dvVD.style.display = 'flex'
+     dvVD.style. position = 'fixed'
+    
+})
