@@ -89,3 +89,37 @@ btMune.forEach(e => {
         });
     });
 });
+
+let caru1 = document.querySelector('#caru1');
+let caru2 = document.querySelector('#caru2');
+let caru3 = document.querySelector('#caru3');
+
+let btnCqru1 = document.querySelector('#st-bt1');
+let btnCqru2 = document.querySelector('#st-bt2');
+let btnCqru3 = document.querySelector('#st-bt3');
+
+btnCqru1.addEventListener('click', () => {
+    caru1.style.display = 'flex';
+    caru2.style.display = 'none';
+    caru3.style.display = 'none';
+    btnCqru1.style.backgroundColor = '#4b4b4d';
+    btnCqru2.style.backgroundColor = '';
+    btnCqru3.style.backgroundColor = '';
+});
+btnCqru2.addEventListener('click', () => {
+    caru1.style.display = 'none';
+    caru2.style.display = 'flex';
+    caru3.style.display = 'none';
+    btnCqru2.style.backgroundColor = '#4b4b4d';
+    btnCqru1.style.backgroundColor = '';
+    btnCqru3.style.backgroundColor = '';
+});
+btnCqru3.addEventListener('click', () => {
+    caru1.style.display = 'none';
+    caru2.style.display = 'none';
+    caru3.style.display = 'flex';
+    btnCqru3.style.backgroundColor = '#4b4b4d';
+    btnCqru1.style.backgroundColor = '';
+    btnCqru2.style.backgroundColor = '';
+});
+
