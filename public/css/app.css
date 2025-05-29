@@ -602,9 +602,11 @@ body{
     align-items: center;
     background-color: rgba(128, 128, 128, 0.123);
     text-align: center;
+    padding-bottom: 20px;
 }
 .div1-sec6{
     margin-top: 40px;
+    text-align: center;
 }
 .div1-sec6 h3{
     color: rgba(128, 128, 128, 0.599);
@@ -673,4 +675,69 @@ body{
 }
 .st-bt:hover{
     background-color: rgba(128, 128, 128, 0.801);
+}
+.sec8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.div1-sec8{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+
+}
+.div-chef{
+    width: 400px;
+    background-color: white;
+    height: 520px;
+    border-radius: 10px 10px 0 0;
+}
+.div-chef:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+.img-chef img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px 10px 0 0;
+}
+.tit-chef{
+    text-align: center;
+    margin-top: 20px;
+    padding-inline: 14px;
+}
+.name-chef{
+    font-size: 22px;
+    font-weight: 550;
+}
+.who-chef{
+    color: rgba(128, 128, 128, 0.621);
+    font-size: 17px;
+    margin-top: 7px;
+}
+.ds-chef{
+    margin-top: 7px;
+    font-weight: lighter;
+    color: rgb(128, 128, 128);
+}
+.chef-contact{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.chef-contact i{
+    font-size: large;
+    cursor: pointer;
 }
